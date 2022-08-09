@@ -1,0 +1,52 @@
+
+How to selectively pickup the commit's from child branch ( Cherry-pick )
+
+$ git  cherry-pick   af7f4dc    6b8166d     ( commit id's)
+
+
++++++++++++++++++++++
+
+Git Ammend
+----------------
+
+$ git commit  --amend  -m "a"
+
+
+How to go back to previous version of code
+----------------------------------------------
+git reset --hard c9187df
+
+
+
+push the files from git to github:
+------------------------------------
+
+
+$ git init
+$ git add .
+
+$ git commit -m "a"
+
+$git clone https://github.com/sivakumari12/august.git
+
+$ git remote add ppt https://github.com/sivakumari12/august.git
+
+$git remote -v
+
+$ git push 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
